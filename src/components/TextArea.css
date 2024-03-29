@@ -1,0 +1,7 @@
+textarea {
+  field-sizing: content;
+  resize: none;
+  overflow: auto;
+  scrollbar-color: rgb(39 39 42 / 1) rgb(24 24 27 / 1);
+  scrollbar-width: thin;
+}
