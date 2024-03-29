@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html",
+    },
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "always",
+        "source.organizeImports": "always"
+    },
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#25108C",
+        "titleBar.activeBackground": "#3417C4",
+        "titleBar.activeForeground": "#FBFAFE"
+    }
+}
