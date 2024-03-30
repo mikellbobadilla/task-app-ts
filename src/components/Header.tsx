@@ -11,7 +11,7 @@ export function Header() {
             <li>
               <NavLink
                 className="px-2 lg:px-3 py-1 lg:py-2 rounded-full text-sm lg:text-base transition-all"
-                to="/tasks"
+                to="/"
                 title="Go to list of tasks"
               >
                 Tasks
