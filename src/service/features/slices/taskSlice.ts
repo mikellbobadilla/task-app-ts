@@ -26,7 +26,8 @@ export const taskSlice = createSlice({
   reducers: {
     taskCreated: (state, action: PayloadAction<Task>) => {
       const id = crypto.randomUUID()
-      state.push({ id, ...action.payload })
+      const newState = [...state, { ...action.payload, id }]
+      return newState
     },
     taskUpdated: (
       state,
